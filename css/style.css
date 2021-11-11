@@ -1,51 +1,37 @@
-header {
+
+header{
     background-color: silver;
 }
-
-
 /*Parametros del Nombre del colegio*/
 
 
 /*Parametro de la imagen*/
-
-img {
+img{
     margin-top: -5px;
     margin-left: 5px;
 }
-
-
 /*Esta sección pertenece al Menu de interacción*/
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    /* estilo de letras*/
+body{
+    font-family: Arial, Helvetica, sans-serif; /* estilo de letras*/
 }
-
-.Menu {
-    /* Barra de Navegación*/
-    list-style: none;
-    padding: 0%;
-    background: black;
-    width: 32%;
-    max-width: 1000px;
-    margin: auto;
+.Menu{  /* Barra de Navegación*/
+list-style: none;
+padding: 0%;
+background: black ;
+width: 32%;
+max-width: 1000px;
+margin: auto;
 }
-
-.Menu li a {
-    /*Color de las letras*/
+.Menu li a{ /*Color de las letras*/
     text-decoration: none;
     color: white;
     padding: 20px;
     display: block;
 }
-
-.Menu li {
-    /*Regas para Lista desordenada*/
+.Menu li{  /*Regas para Lista desordenada*/
     display: inline-block;
-    text-align: center;
+    text-align: center; 
 }
-
-.Menu li a:hover {
-    /*Resplandecer al Seleccionar*/
+.Menu li a:hover{/*Resplandecer al Seleccionar*/
     background: #cf422b;
 }

@@ -2,140 +2,80 @@
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/scrollreveal"></script>
-  <link rel="stylesheet" href="/css/style.css">
-  <title>colegio</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+
+    <!--bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+    <!--css-->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>colegio</title>
 </head>
 
 <body>
 
+    <!--Navbar-->
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color:silver;">
+            <img src="/img/04f287b64fd5147faa8d8d0c861e62c3.png" alt="icono" width="30" height="30">
+            <a class="navbar-brand" href="#">Colegio</a>
+            <button class="navbar-toggler" tydpe="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" href="#">Inicio <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Nosotros</a>
+                    <a class="nav-link" href="#">Actividades</a>
+                </div>
+            </div>
+        </nav>
 
-  <!--Navbar-->
+        <!--Noticias-->
 
-  <nav class="navbar nav navbar-expand-lg ">
-    <!-- Just an image -->
-    <div class="navbar">
-      <a class="navbar-brand" href="#">
-        <img src="../img/Logo colegio.png" width="65" height="65" alt="">
-      </a>
-
-      <a class=" letras" href="../INDEX.html">Colegio San Isidro</a>
-
-      </button>
-
-      <ul class="navbar-nav">
-        <li>
-          <a class=" letras" href="#">Quienes Somos</a>
-        </li>
-        <li>
-          <a class="letras" href="#">Contacto</a>
-        </li>
-
-        <li>
-          <a class="letras" href="#">Actividades</a>
-        </li>
-      </ul>
-
-    </div>
-  </nav>
-
-  <!-- Noticias -->
-
-<div class="container-notice">
-  <img src="img/ej1.jpg" class="img-fluid" alt="...">
-</div>
-  
-  <!-- Teacher -->
-
-  <div class="container-teacher">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img src="img/teacher.png" width="300" height="300" class="img-fluid rounded-start-1" alt="...">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title-1">¿Quienes somos?</h5>
-          <p class="card-text-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, dolorum alias. Vel,
-            facere
-            magni? Alias aliquid fugiat adipisci assumenda pariatur optio eaque. Animi sed illo nostrum sit aperiam,
-            eius
-            blanditiis tempore saepe aliquam neque alias. Quo impedit iusto officia necessitatibus, consequuntur porro,
-            dolorum ipsam veritatis totam fugiat deleniti laborum perspiciatis.</p>
-          <!--conoce más teacher-->
-          <button class="btn btn-outline-warning"> Conoce más </button>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/img/ej1.jpg" class="d-block w-100" alt="first slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/ej2.jpg" class="d-block w-100" alt="second slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/ej3.jpg" class="d-block w-100" alt="third slide">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </button>
+            <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </button>
         </div>
-      </div>
-    </div>
-  </div>
 
-  <!--Text-Info-->
 
-  <div class="container-contact">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img src="img/support.png" width="300" height="300" class="img-fluid rounded-start-2" alt="...">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title-2">Contactanos</h5>
-          <p class="card-text-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quisquam repellat
-            deserunt soluta labore similique at ipsum nulla adipisci, vel dolorum ad enim nam quidem. Commodi officia
-            quod sed eaque praesentium, mollitia dolores iste autem adipisci ex eos, ullam deserunt? Nostrum ex tempora
-            ea consequatur repellat corrupti, sapiente at alias!</p>
-          <!--conoce más contact-->
-          <button class="btn btn-outline-warning"> Conoce más </button>
-        </div>
-      </div>
-    </div>
-  </div>
+        <!--Inicio de sesion-->
 
-  <!--text-ubication-->
+        <button class="btn btn-success">Login</button>
 
-  <div class="container-location">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img src="img/location.png" width="300" height="300" class="img-fluid rounded-start-3" alt="...">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title-3">Conoce nuestra Ubicación</h5>
-          <p class="card-text-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat laudantium velit rem
-            doloremque voluptate? Aut non nobis earum fuga temporibus vel ex blanditiis unde, natus iste molestiae
-            beatae
-            voluptate porro modi explicabo dolores officia ipsam possimus minus quia reiciendis, vero a. Ex ratione
-            deleniti beatae inventore minus voluptatibus harum error.</p>
-          <!--conoce más ubi-->
-          <button class="btn btn-outline-warning"> conoce más </button>
-        </div>
-      </div>
-    </div>
-  </div>
-
- 
-  <!-- footer -->
-
-  <footer id="footer">
-    <div class="container">
-
-      <div class="copyright">
-        &copy; Copyright <strong><span>Colegio San Isidro</span></strong>. All Rights Reserved
-        <a style="background:black;"><i class="bxl-admi"></i></a>
-      </div>
-    </div>
-    <!-- container -->
-  </footer>
-
-  <!-- End Footer -->
-
-  <script src="JS/main.js"></script>
+        <!--Adornos-->
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-7.34,47.88 C147.29,186.03 239.27,22.22 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: silver;"></path></svg></div>
 
 </body>
 

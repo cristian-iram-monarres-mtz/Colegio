@@ -17,13 +17,14 @@ body {
 }
 
 
-/* inicio nav */
+/*************************************************************************inicio nav **************************************************************************/
 
 .nav {
     height: 100px;
     background: #fffc00;
     background: -webkit-linear-gradient(to right, #ffffff, #fffc00);
     background: linear-gradient(to right, #ffffff, #fffc00);
+    position: static;
 }
 
 .navbar {
@@ -50,10 +51,34 @@ li {
 }
 
 
-/* fin navbar */
+/************************************************************************* fin navbar **************************************************************************/
+
+h2 {
+    position: static;
+    font-size: 24px;
+    font-style: normal;
+    letter-spacing: 0.1em;
+    text-align: center;
+    padding: 60px;
+    color: red;
+}
+
+.container {
+    position: absolute;
+    text-align: center;
+}
+
+.card {
+    position: relative;
+    border-color: #fffc00;
+    border-radius: 20px;
+    border-width: 10px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, .5);
+}
 
 
-/* footer */
+/************************************************************************** footer **************************************************************************/
 
 #footer {
     position: absolute;
@@ -75,4 +100,4 @@ li {
 }
 
 
-/* fin footer */
+/************************************************************************** fin footer **************************************************************************/
